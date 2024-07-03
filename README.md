@@ -8,8 +8,8 @@
 
 ## Repository Assets:
 
-- [Shuffled Frog Leaping Implementation]()
-- [Multi-objective Particle Swarm Optimisation]()
+- [Shuffled Frog Leaping Implementation](CODE/sfla.py)
+- [Multi-objective Particle Swarm Optimisation](CODE/pso.py)
 - [Benchmark Datasets](DATA)
 
 ## Business Context:
@@ -19,3 +19,7 @@
 ## Problem Description:
 
 <p align="justify"> The flexible job shop scheduling problem involves scheduling n jobs across m machines, where each job comprises several operations that can be processed on various compatible machines at different speeds. The goal is to optimize two main criteria: total energy consumption (TEC) and workload balance (WB). This problem is complex due to its NP-hard nature and the conflicting objectives of minimizing energy consumption while balancing the workload across machines. The proposed MOPSO algorithm aims to find a set of non-dominated solutions that provide an optimal trade-off between these criteria.</p>
+
+***
+
+*Disclaimer : This repository contains code developed as part of my first undergraduate research project. As such, the code may not be the most efficient or clean. My primary goal at that time was to learn and explore the application of particle swarm optimization in solving complex scheduling problems, I hope this project serves as a foundation for further development.*
